@@ -26,11 +26,28 @@
     </nav>
     <div class="jumbotron text-center">
         <h1>News Scraper</h1>
-        <p>Business Insider Edition</p>
+        <p>Saved Articles</p>
     </div>
     <div id="container-fluid articles">
+
     </div>
 
+    <div class="bootbox modal fade in" role="dialog" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class "bootbox-close-button close" data-dismiss="modal" aria-hidden="true">
+                </button>
+                <div class= "container-fluid text-center">
+                    <h4>Article Note</h4>
+                    <textarea placeholder="New note" rows="3" cols="60"></textarea>
+                    <button class="btn btn-success save">Save Note</button>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
